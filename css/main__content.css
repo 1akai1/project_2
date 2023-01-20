@@ -1,0 +1,9 @@
+.main__content-img {
+    width: 100%;
+    position: relative;
+}
+.main__content-h1 {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+}

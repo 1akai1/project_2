@@ -1,0 +1,32 @@
+.videos__content-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.videos__content-item {
+    position: relative;
+}
+.videos__content-item-flex{
+    display: flex;
+    flex-direction: column;
+}
+.videos__content-item-header {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    width: 48%;
+}
+.videos__content-item-img {
+    width: 100%;
+    height: 100%;
+}
+.videos__content-item-top {
+    position: relative;
+}
+.videos__content-item-text {
+    position: absolute;
+    bottom: 16px;
+    right: 26px;
+}
+.videos__content-item-bottom {
+    position: relative;
+}

@@ -1,0 +1,7 @@
+.general{
+    border-top: 1px solid transparent;
+}
+.general__content{
+    margin: 9.259vh 8.333vh;
+    position: relative;
+}

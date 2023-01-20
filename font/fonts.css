@@ -1,0 +1,56 @@
+@import url(../font/BrandonGrotesque/stylesheet.css);
+@import url(../font/AmstelvarAlpha/style.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.text_style-font_AmstelvarAlpha_xxxl{
+    font-family: 'AmstelvarAlpha';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 64px; */
+    font-size: 4rem;
+    line-height: 77px;
+    letter-spacing: 0.15em;
+}
+
+.text_style-font_Brandon-Grotesque_l{
+    font-family: 'Brandon Grotesque';
+    font-style: normal;
+    font-weight: 390;
+    /* font-size: 24px; */
+    font-size: 1.5rem;
+    line-height: 34px;
+}
+.text_style-font_Brandon-Grotesque_xl{
+    font-family: 'Brandon Grotesque';
+    font-style: normal;
+    font-weight: 390;
+    /* font-size: 36px; */
+    font-size: 2.25rem;
+    line-height: 51px;
+}
+.text_style-font_Brandon-Grotesque_xxl{
+    font-family: 'Brandon Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 48px; */
+    font-size: 3rem;
+    line-height: 69px;
+}
+
+.text_style-font_Roboto_s{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 18px; */
+    font-size: 1.125rem;
+    line-height: 21px;
+}
+.text_style-font_Roboto_xxxl{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 64px; */
+    font-size: 4rem;
+    line-height: 75px;
+}
+
