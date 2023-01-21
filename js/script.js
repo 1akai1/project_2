@@ -1,12 +1,12 @@
-var carousel = document.querySelector('.photos__content-carousel-1')
+let carousel = document.querySelector('.carousel-1')
 
-var photos__contentCarouselIndicator = carousel.querySelectorAll('.photos__content-carousel-indicator')
-var photos__contentCarouselItem = carousel.querySelectorAll('.photos__content-carousel-item')
+let photos__contentCarouselIndicator = carousel.querySelectorAll('.photos__content-carousel-indicator')
+let photos__contentCarouselItem = carousel.querySelectorAll('.photos__content-carousel-item')
 
-var photos__contentCarouselControlPrev = carousel.querySelector('.photos__content-carousel-control-prev')
-var photos__contentCarouselControlNext = carousel.querySelector('.photos__content-carousel-control-next')
+let photos__contentCarouselControlPrev = carousel.querySelector('.photos__content-carousel-control-prev')
+let photos__contentCarouselControlNext = carousel.querySelector('.photos__content-carousel-control-next')
 
-var lengthItem = photos__contentCarouselIndicator.length-1
+let lengthItem = photos__contentCarouselIndicator.length-1
 
 for (item of photos__contentCarouselIndicator){
     item.onclick = function(){
@@ -16,8 +16,8 @@ for (item of photos__contentCarouselIndicator){
     }
 }
 
-photos__contentCarouselControlPrev.onclick = function(localSearch){
-    var dataSetIndicator = clearActiveAndGetDatasetIndicator()
+photos__contentCarouselControlPrev.onclick = function(){
+    let dataSetIndicator = clearActiveAndGetDatasetIndicator()
     if (dataSetIndicator == 0){
         photos__contentCarouselIndicator[lengthItem].classList.add('active')
         showCarouselItem(lengthItem)
@@ -28,8 +28,8 @@ photos__contentCarouselControlPrev.onclick = function(localSearch){
     }
 }
 
-photos__contentCarouselControlNext.onclick = function(localSearch){
-    var dataSetIndicator = clearActiveAndGetDatasetIndicator()
+photos__contentCarouselControlNext.onclick = function(){
+    let dataSetIndicator = clearActiveAndGetDatasetIndicator()
     if (dataSetIndicator == lengthItem){
         photos__contentCarouselIndicator[0].classList.add('active')
         showCarouselItem(0)
@@ -42,15 +42,15 @@ photos__contentCarouselControlNext.onclick = function(localSearch){
 }
 
 function clearActiveAndGetDatasetIndicator(){
-    var activeItem = carousel.querySelector('.active')
+    let activeItem = carousel.querySelector('.photos__content-carousel-indicators').querySelector('.active')
     activeItem.classList.remove('active')
     return Number(activeItem.dataset.photos__contentCarouselIndicator)
 }
 
-function showCarouselItem(indivator){
+function showCarouselItem(indicator){
     for (item of photos__contentCarouselItem){
         item.classList.remove('active')
     }
-    console.log(indivator)
-    photos__contentCarouselItem[indivator].classList.add('active')
+    console.log(indicator)
+    photos__contentCarouselItem[indicator].classList.add('active')
 }

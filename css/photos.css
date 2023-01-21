@@ -1,14 +1,13 @@
-.photos {
-    background-color: moccasin;
+.photos__content-carousel{
+    position: relative;
 }
 .photos__content-carousel-indicators {
     display: flex;
-    position: absolute;
-    bottom: -40px;
     column-gap: 20px;
-    border-radius: 100%;
-    width: 100%;
     justify-content: center;
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
 }
 .photos__content-carousel-indicator {
     display: block;
@@ -30,35 +29,25 @@
 .photos__content-carousel-img {
     width: 100%;
 }
-.photos__content-carousel-control-prev {
+.photos__content-carousel-control{
     position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.photos__content-carousel-control-prev {
     background-color: #ffffff00;
     border: 0;
     cursor: pointer;
-    width: 20px;
-    display: flex;
-    align-items: center;
-    top: 0;
-    left: -39px;
-    height: 100%;
-}
-.photos__content-carousel-control-prev-img{
     position: relative;
-    width: 100%;
+    left: -50px;
 }
 .photos__content-carousel-control-next {
-    position: absolute;
     background-color: #ffffff00;
     border: 0;
     cursor: pointer;
-    width: 20px;
-    display: flex;
-    align-items: center;
-    top: 0;
-    right: -39px;
-    height: 100%;
-}
-.photos__content-carousel-control-next-img{
+    margin-left: auto;
     position: relative;
-    width: 100%;
+    right: -50px;
 }

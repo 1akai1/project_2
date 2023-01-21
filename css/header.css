@@ -1,4 +1,7 @@
 .header{
+    position: relative;
+}
+.header__text{
     position: absolute;
-    top: -69px;
+    bottom: 0;
 }

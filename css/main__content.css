@@ -1,9 +1,10 @@
-.main__content-img {
-    width: 100%;
-    position: relative;
+.main__img{
+    background-image: url(../img/main__content-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.main__content-h1 {
-    position: absolute;
-    bottom: 0;
-    right: 16px;
+.main__content-h1{
+    margin-top: 37vw;
+    text-align: end;
 }

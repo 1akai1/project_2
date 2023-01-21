@@ -1,8 +1,6 @@
 .nav__navbar {
-    position: absolute;
     width: 100%;
-    margin-top: 10px;
-    z-index: 1;
+    padding-top: 10px;
 }
 .nav__navbar-items {
     display: flex;
