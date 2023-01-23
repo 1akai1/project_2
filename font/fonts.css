@@ -8,7 +8,7 @@
     font-weight: 400;
     /* font-size: 64px; */
     font-size: 4rem;
-    line-height: 77px;
+    /* line-height: 77px; */
     letter-spacing: 0.15em;
 }
 
@@ -18,7 +18,7 @@
     font-weight: 390;
     /* font-size: 24px; */
     font-size: 1.5rem;
-    line-height: 34px;
+    /* line-height: 34px; */
 }
 .text_style-font_Brandon-Grotesque_xl{
     font-family: 'Brandon Grotesque';
@@ -26,7 +26,7 @@
     font-weight: 390;
     /* font-size: 36px; */
     font-size: 2.25rem;
-    line-height: 51px;
+    /* line-height: 51px; */
 }
 .text_style-font_Brandon-Grotesque_xxl{
     font-family: 'Brandon Grotesque';
@@ -34,7 +34,7 @@
     font-weight: 700;
     /* font-size: 48px; */
     font-size: 3rem;
-    line-height: 69px;
+    /* line-height: 3rem; */
 }
 
 .text_style-font_Roboto_s{
@@ -43,7 +43,7 @@
     font-weight: 700;
     /* font-size: 18px; */
     font-size: 1.125rem;
-    line-height: 21px;
+    /* line-height: 21px; */
 }
 .text_style-font_Roboto_xxxl{
     font-family: 'Roboto';
@@ -51,6 +51,6 @@
     font-weight: 700;
     /* font-size: 64px; */
     font-size: 4rem;
-    line-height: 75px;
+    /* line-height: 75px; */
 }
 

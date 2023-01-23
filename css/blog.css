@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 50px;
-    margin-bottom: 10vw;
 }
 .blog__content-text{
     word-break: break-all;
@@ -15,14 +14,13 @@
 .blog__content-item-grid{
     display: grid;
     grid-auto-flow: column;
+    row-gap: 50px;
 }
 .blog__content-card{
-    display: grid;
-    align-items: flex-end;
+    padding-top: 80vh;
 }
 .blog__content-card-text{
     padding: 17px 15px 17px 14px;
-    bottom: 0;
     background: rgba(0, 0, 0, 0.75);
 }
 .blog__content-card-img-1{

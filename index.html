@@ -9,18 +9,24 @@
 </head>
 <body class= "background_style_color">
     <main class="content background_style_color">
-        <section class="general">
+        <section class="general header">
             <div class="main main__img">
                 <div class="layout-padding">
                     <nav class="nav">
-                        <div class="nav__navbar">
-                            <ul class="nav__navbar-items none text_style-font_Brandon-Grotesque_xl text_style-shadow">
-                                <li class="nav__navbar-item none"><a href="#photos" class="nav__navbar-link text_style-color none">Photos</a></li>
-                                <li class="nav__navbar-item none"><a href="#video" class="nav__navbar-link text_style-color none">Video</a></li>
-                                <li class="nav__navbar-item none"><a href="#about" class="nav__navbar-link text_style-color none">About</a></li>
-                                <li class="nav__navbar-item none"><a href="#about" class="nav__navbar-link text_style-color none">Contacts</a></li>
-                                <li class="nav__navbar-item none"><a href="#blog" class="nav__navbar-link text_style-color none">Blog</a></li>
-                            </ul>
+                        <div class="nav__content">
+                            <label for="nav" class="burger">
+                                <input id="nav" type="checkbox">
+                                <span class="none-display"></span>
+                                <span class="none-display"></span>
+                                <span class="none-display"></span>
+                                    <ul class="nav__items none text_style-font_Brandon-Grotesque_xl text_style-shadow">
+                                        <li class="nav__item none"><a href="#photos" class="nav__link text_style-color none">Photos</a></li>
+                                        <li class="nav__item none"><a href="#video" class="nav__link text_style-color none">Video</a></li>
+                                        <li class="nav__item none"><a href="#about" class="nav__link text_style-color none">About</a></li>
+                                        <li class="nav__item none"><a href="#about" class="nav__link text_style-color none">Contacts</a></li>
+                                        <li class="nav__item none"><a href="#blog" class="nav__link text_style-color none">Blog</a></li>
+                                    </ul>
+                            </label>
                         </div>
                     </nav>
                     <h1 class="main__content-h1 text_style-font_AmstelvarAlpha_xxxl text_style-color">Anastasia Krasniuk</h1>
@@ -43,8 +49,8 @@
                                         <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 4.png" alt="">
                                         <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 5.png" alt="">
                                         <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 6.png" alt="">
-                                        <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 7.png" alt="">
-                                        <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 8.png" alt="">
+                                        <img class="photos__content-carousel-img photos__content-carousel-img-phone" src="img/photos__content/Rectangle 7.png" alt="">
+                                        <img class="photos__content-carousel-img photos__content-carousel-img-phone" src="img/photos__content/Rectangle 8.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photos__content-carousel-item">
@@ -55,8 +61,8 @@
                                         <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 5.png" alt="">
                                         <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 7.png" alt="">
                                         <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 8.png" alt="">
-                                        <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 1.png" alt="">
-                                        <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 6.png" alt="">
+                                        <img class="photos__content-carousel-img photos__content-carousel-img-phone" src="img/photos__content/Rectangle 1.png" alt="">
+                                        <img class="photos__content-carousel-img photos__content-carousel-img-phone" src="img/photos__content/Rectangle 6.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photos__content-carousel-item">
@@ -67,8 +73,8 @@
                                         <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 3.png" alt="">
                                         <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 2.png" alt="">
                                         <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 6.png" alt="">
-                                        <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 5.png" alt="">
-                                        <img class="photos__content-carousel-img" src="img/photos__content/Rectangle 7.png" alt="">
+                                        <img class="photos__content-carousel-img photos__content-carousel-img-phone" src="img/photos__content/Rectangle 5.png" alt="">
+                                        <img class="photos__content-carousel-img photos__content-carousel-img-phone" src="img/photos__content/Rectangle 7.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -95,10 +101,10 @@
                             <a class="videos__content-item none" href="#">
                                 <div class="videos__content-item-img">
                                     <div class="videos__content-item-shadow">
-                                        <pre class="videos__content-item-header text_style-font_Brandon-Grotesque_xl text_style-color">
-New video from "Pokatushki
-na karuseli, seli i poeli"
-                                        </pre>
+                                        <p class="videos__content-item-header text_style-font_Brandon-Grotesque_xl text_style-color">
+                                            New video from "Pokatushki
+                                            na karuseli, seli i poeli"
+                                        </p>
                                     </div>
                                 </div>
                             </a>
@@ -110,24 +116,29 @@ na karuseli, seli i poeli"
                                     <p class="videos__content-item-text text_style-font_Brandon-Grotesque_xl text_style-color">Film title</p>
                                 </a>
                             </div>
+                        </div>
                     </div>
                 </section>
             </div>
         </section>
         <section class="general background_style_color" id="about">
+            <div class="header header__text-about-me">
+                <h2 class="header__text text_style-font_Brandon-Grotesque_xxl text_style-color">About me</h2>
+            </div>
             <div class="general__content">
                 <section class="about-me">
-                    <div class="about-me__content">
                         <div class="about-me__content-items">
                             <div class="about-me__content-item">
                                 <img src="img/about-me__content/about-me__content-item-img.png" alt="" class="about-me__content-item-img">
                             </div>
                             <div class="about-me__content-item about-me__content-item-flex">
                                 <div class="about-me__content-item-top">
-                                    <pre class="about-me__content-item-text text_style-color text_style-font_Brandon-Grotesque_l">
-Hello.
-I’am Anastasia photographer from China Shanghai
-                                    </pre>
+                                    <p class="about-me__content-item-text text_style-color text_style-font_Brandon-Grotesque_l">
+                                        Hello.
+                                    </p>
+                                    <p class="about-me__content-item-text text_style-color text_style-font_Brandon-Grotesque_l">
+                                        I’am Anastasia photographer from China Shanghai
+                                    </p>
                                 </div>
                                 <div class="about-me__content-item-bottom">
                                     <p class="about-me__content-item-text text_style-color text_style-font_Brandon-Grotesque_l">Contact me on:</p>
@@ -141,7 +152,6 @@ I’am Anastasia photographer from China Shanghai
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </section>
             </div>
         </section>

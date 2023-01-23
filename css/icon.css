@@ -1,0 +1,37 @@
+.burger{
+    user-select: none;
+}
+.burger label{
+    cursor: pointer;
+}
+.burger input{
+    opacity: 0;
+    display: none;
+}
+.burger span{
+    width: 33px;
+    height: 4px;
+    background: #cdcdcd;
+    border-radius: 3px;
+    transition: transform 0.2s, background 0.5s;
+}
+.burger span:nth-child(2){  
+    transform-origin: left;
+    margin-bottom: 5px;
+}
+.burger span:nth-child(4){  
+    transform-origin: left;
+    margin-top: 5px;
+}
+.burger input:checked ~ span{
+    background-color: rgb(26, 26, 26);
+}
+.burger input:checked ~ span:nth-child(2){
+    transform: rotate(45deg) translate(-4px, 0);
+}
+.burger input:checked ~ span:nth-child(3){
+    transform: rotate(0deg) scale(0.1, 0.1);
+}
+.burger input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg) translate(-4px, -1px);
+}
